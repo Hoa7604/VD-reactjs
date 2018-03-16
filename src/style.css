@@ -1,0 +1,21 @@
+
+ul{
+	position: absolute;
+	left: 50%;
+	right: 50%;
+	transform: translate(-50%, -50%);
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+ul li{
+	list-style: none;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	margin: 0 50px;
+	background: rgba(255,255,255, .2);
+	border-radius: 50%;
+}
